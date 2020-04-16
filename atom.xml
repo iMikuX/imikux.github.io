@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jiangxunliang.top/"/>
-  <updated>2020-04-14T00:40:43.843Z</updated>
+  <updated>2020-04-16T07:59:11.728Z</updated>
   <id>https://jiangxunliang.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>NextT主题美化</title>
+    <link href="https://jiangxunliang.top/NextT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96.html"/>
+    <id>https://jiangxunliang.top/NextT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96.html</id>
+    <published>2020-04-16T05:14:00.000Z</published>
+    <updated>2020-04-16T07:59:11.728Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="侧边栏添加网易云音乐"><a href="#侧边栏添加网易云音乐" class="headerlink" title="侧边栏添加网易云音乐"></a>侧边栏添加网易云音乐</h2><p>修改<code>themes\next\layout\_macro\sidebar.swig</code>找到<code>&lt;div class=&quot;site-overview-wrap sidebar-panel&quot;&gt;</code>标签在下一个<code>&lt;/div&gt;</code>处添加</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"music163player"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">iframe</span> <span class="attr">frameborder</span>=<span class="string">"no"</span> <span class="attr">border</span>=<span class="string">"0"</span> <span class="attr">marginwidth</span>=<span class="string">"0"</span> <span class="attr">marginheight</span>=<span class="string">"0"</span> <span class="attr">width</span>=<span class="string">330</span>   <span class="attr">height</span>=<span class="string">86</span> <span class="attr">src</span>=<span class="string">"//music.163.com/outchain/player?type=2&amp;id=496184506&amp;auto=1&amp;height=66"</span>&gt;</span>        <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><p><code>iframe</code>为网易云外链链接</p><p>持续更新Next……</p>]]></content>
+    
+    <summary type="html">
+    
+      hexo之nextT主题美化篇
+    
+    </summary>
+    
+    
+      <category term="Hexo &amp; Github" scheme="https://jiangxunliang.top/categories/Hexo-Github/"/>
+    
+    
+      <category term="Hexo" scheme="https://jiangxunliang.top/tags/Hexo/"/>
+    
+      <category term="NextT" scheme="https://jiangxunliang.top/tags/NextT/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo+Github从零开始</title>
